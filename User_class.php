@@ -101,7 +101,7 @@ class User {
 			
 			$user = new StdClass();
 			$user->id = $id;
-			$user->id = $email;
+			$user->email = $email;
 			
 			$response->user = $user;
 			
